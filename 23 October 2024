@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main(){
+    int a,b,c;
+    printf("%d %c %f ",5,"a",78.898989);
+    // char abb[6]={"ab","bc","cd","dc","op","op"};
+    int ab1[5]={1,6,7,3,4};
+    printf("%d",ab1[2]);
+    
+    printf("\nProgram to find an element in an array");
+    int ab1_F;
+    ab1_F=7;
+    for(int i=0;i<=5;i++){
+        if(ab1_F == ab1[i]){
+            printf("Found %d at %d",ab1_F,i);
+        
+        }
+    }
+    return 0;
+}
